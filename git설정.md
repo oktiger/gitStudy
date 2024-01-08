@@ -1,3 +1,4 @@
+# section1-5
 # Git 최초 설정
 Git 전역으로 사용자 이름과 이메일 주소를 설정
     - GitHub 계정과는 별개
@@ -24,9 +25,18 @@ git config --global init.defaultBranch main
 <br>
 
 
-# 프로젝트 생성 & Git 관리 시작
+# 프로젝트 생성 & Git 관리 시작 
 적당한 위치에 원하는 이름으로 폴더를 생성하고 VS Code로 열람
 <br>
  
 해당 폴더에서(VS Code 터미널 기본) 아래 명령어 입력
-```b```
+```bash
+git init
+```
+
+- 맥에서 숨길파일 보기 : ''cmd'' + "shift" + "."
+
+- 현재 폴더상황을 git의 관점으로 보는 명령어 
+```bash
+git status
+```
